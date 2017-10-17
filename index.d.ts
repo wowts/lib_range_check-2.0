@@ -1,8 +1,5 @@
-export declare class LibDataBroker {
-    Register(addon: string, broker: any, data: any): void;
-    Refresh(addon: string, minimap: any): void;
-    Hide(addon: string): void;
-    Show(addon: string): void;
+export declare class LibRangeCheck {
+    GetRange(target: string): number;
 }
-declare const lib: LibDataBroker;
+declare const lib: LibRangeCheck;
 export default lib;

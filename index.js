@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class LibDataBroker {
-    Register(addon, broker, data) { }
-    Refresh(addon, minimap) { }
-    Hide(addon) { }
-    Show(addon) { }
+class LibRangeCheck {
+    GetRange(target) {
+        return 0;
+    }
 }
-exports.LibDataBroker = LibDataBroker;
-const lib = new LibDataBroker();
+exports.LibRangeCheck = LibRangeCheck;
+const lib = new LibRangeCheck();
 exports.default = lib;
