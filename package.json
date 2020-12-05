@@ -24,6 +24,6 @@
     "lua": {
         "name": "LibRangeCheck-2.0",
         "svn": "https://repos.wowace.com/wow/librangecheck-2-0/trunk",
-        "entry": "LibRangeCheck-2.0.lua"
+        "entry": "LibRangeCheck-2.0/LibRangeCheck-2.0.lua"
     }
 }
